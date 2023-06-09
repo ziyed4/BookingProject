@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <title>Contact Us</title>
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a id="home" onclick="location.href='index.html'">Home</a></li>
+          <li><a id="hotel" onclick="location.href='hotelpage.html'">Hotel</a></li>
+          <li><a id="content" onclick="location.href='ContactUs.html'">Contact</a></li>
+          <li><a id="about" onclick="location.href='About.html'">About</a></li>
+        </ul>
+      </nav>
+    <form>
+        <div id="con">
+            <h1>Contact Us</h1>
+            <br>
+            <br>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required><br>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required><br>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea><br><br>
+            <button id="btn" type="submit">Send</button><br><br>
+        </div>
+      </form>
+      <script src="contact.js"></script>
+</body>
+</html>
